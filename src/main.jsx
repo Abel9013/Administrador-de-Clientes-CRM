@@ -4,11 +4,18 @@ import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Layout from './components/Layout'
 import NuevoCliente from './pages/NuevoCliente'
+import Index from './pages/Index'
+
 const router = createBrowserRouter([
   {
     path: '/',
     element: <Layout/>,
     children :[
+      {
+        // No lleva path, xq en index true hace q se cargue con la pag ppal
+        index: true,
+        element: <Index />
+      },
       {
         path:'/clientes/nuevo',
         element: <NuevoCliente />
