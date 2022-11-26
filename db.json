@@ -15,11 +15,12 @@
       "empresa": "Codigo Con Juan"
     },
     {
-      "id": 3,
-      "nombre": "Josue",
-      "telefono": 31983913,
+      "nombre": "Josue Actualizado",
+      "empresa": "Codigo Con Juan",
       "email": "josue@juan.com",
-      "empresa": "Codigo Con Juan"
+      "telefono": "31983913",
+      "notas": "Actualizando las notas",
+      "id": 3
     },
     {
       "id": 4,
